@@ -1,6 +1,6 @@
 - name: congigure nginx server
   hosts: frontend
-  become: tes
+  become: yes
   tasks:
   - name: install nginx
     ansible.builtin.dnf:
